@@ -1,12 +1,3 @@
-/*
- * server.c - Cinema Seat Reservation Server
- * POSIX Message Queue + Worker Threads + Mutex
- *
- * Usage: ./server [-w workers] [-s on|off] [-d on|off]
- *   -w  จำนวน Worker (default 3)
- *   -s  Synchronization (Mutex) on/off (default on)
- *   -d  Random delay ระหว่าง check กับ update on/off (default on)
- */
 #define _GNU_SOURCE
 #include <stdio.h>
 #include <stdlib.h>

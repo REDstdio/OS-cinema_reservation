@@ -1,13 +1,3 @@
-/*
- * client.c - Cinema Seat Reservation Client
- *
- * Usage:
- *   ./client <client_id>                 โหมด interactive (พิมพ์คำสั่งเอง)
- *   ./client <client_id> RESERVE 10      โหมดคำสั่งเดียว (ใช้กับสคริปต์ทดลอง)
- *
- * Commands: LIST | STATUS <n> | RESERVE <n> | CANCEL <n> | QUIT
- *           RESET (คำสั่งเสริมสำหรับการทดลอง)
- */
 #define _GNU_SOURCE
 #include <stdio.h>
 #include <stdlib.h>
